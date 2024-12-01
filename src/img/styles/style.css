@@ -1,0 +1,63 @@
+/* Esconde conteúdo inicialmente */
+.content {
+    display: none;
+}
+
+.content.show {
+    display: flex;
+}
+
+/* Estilização de cabeçalhos */
+h2 {
+    color: #191970; /* Azul escuro */
+}
+
+h1 {
+    color: #191970; /* Azul escuro */
+    background-color: #E0FFFF; /* Azul claro */
+}
+
+h3 {
+    color: #1E90FF; /* Azul brilhante */
+}
+
+/* Estilo do corpo */
+body {
+    background-color: #E0FFFF; /* Azul claro */
+    color: #2f4f4f; /* Cinza escuro */
+}
+
+/* Tamanho fixo e uniforme para as imagens */
+.content-img {
+    width: 100%;
+    height: auto;
+    max-width: 400px; /* Limita o tamanho máximo */
+    display: block;
+    margin: 0 auto;
+    border-radius: 10px; /* Bordas arredondadas */
+}
+
+/* Classe personalizada para imagens específicas da aba hobbies */
+.hobby-img {
+    width: 80%; /* Tamanho proporcional menor */
+    max-width: 250px; /* Tamanho máximo */
+    height: auto; /* Mantém proporção */
+    margin-bottom: 20px; /* Espaçamento inferior */
+}
+
+/* Sobrescreve regras do Bootstrap para as abas */
+.nav-tabs .nav-link.active {
+    background-color: #191970; /* Azul escuro */
+    color: #ffffff !important; /* Branco */
+}
+
+.nav-tabs .nav-link {
+    color: #191970 !important; /* Azul escuro */
+}
+
+.tab-pane {
+    background-color: #81d6cb; /* Fundo branco */
+    padding: 20px; /* Espaçamento interno */
+    border-radius: 10px; /* Bordas arredondadas */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Sombra leve */
+}
